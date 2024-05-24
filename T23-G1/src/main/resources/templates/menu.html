@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+<link rel="stylesheet" type="text/css" href="/t23/css/menu.css">
+</head>
+<body>
+
+<h1>Benvenuto nella GameAPPS</h1>
+
+<div id="players" onclick="redirectToPlayers()">PLAYERS</div>
+<div id="admins" onclick="redirectToAdmins()">ADMINS</div>
+
+<script>
+  function redirectToPlayers() {
+    window.location.href = "/login"; // Inserisci qui l'URL della sezione Players
+  }
+
+  function redirectToAdmins() {
+    window.location.href = "/loginAdmin"; // Inserisci qui l'URL della sezione Admins
+  }
+</script>
+
+</body>
+</html>
+
